@@ -8,11 +8,10 @@
     ],
     "build": {
       "env": {
-        "DATABASE_URL": "sql5.freesqldatabase.com"  // Set environment variables here if needed
+        "DATABASE_URL": "sql5.freesqldatabase.com" 
       },
       "commands": {
-        "build": "npm install && npm run build" // Replace this with your build command
+        "build": "npm install && npm run build" 
       }
     }
-  }
-  
+}
