@@ -9,9 +9,6 @@
     "build": {
       "env": {
         "DATABASE_URL": "sql5.freesqldatabase.com" 
-      },
-      "commands": {
-        "build": "npm install && npm run build" 
       }
     }
 }
