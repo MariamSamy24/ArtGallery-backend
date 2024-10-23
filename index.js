@@ -38,5 +38,4 @@ app.use('/api/orders', ordersRoutes);
  app.use('/api/customers', customerRoutes);
  app.use('/api', stripeRoutesr);
 
-const PORT = "https://art-gallery-backend-gq2o.vercel.app" || 5000;
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));    
+ module.exports = app; 
